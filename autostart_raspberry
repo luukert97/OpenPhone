@@ -1,0 +1,7 @@
+sudo nano /home/pi/.config/lxsession/LXDE-pi/autostart
+
+#@xscreensaver -no-splash  # comment this line out to disable screensaver
+@xset s off
+@xset -dpms
+@xset s noblank
+@chromium-browser --incognito --kiosk http://i335676.iris.fhict.nl/oi/phoneos/  # load chromium after boot and point to the localhost webserver in full screen mode
