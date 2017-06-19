@@ -1,0 +1,49 @@
+
+#scherm {
+    background-color: black;
+    width: 320px;
+    height: 240px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    overflow:hidden;
+}
+
+iframe {
+    width: 320px;
+    height: 220px;
+    border: none;
+}
+
+#time {
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+    text-align: right;
+    margin-right: 5px;
+    z-index: 2;
+}
+
+#content {
+    background-color: aliceblue;
+    height: 2000px;
+}
+
+h6 {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+#div1 {
+    font-size: 40px;
+    background-color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    padding-right: auto;
+}

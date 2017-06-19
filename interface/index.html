@@ -1,0 +1,38 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+<body onload="startTime()">
+<script>
+    //get the time via a javascript
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('time').innerHTML =
+    h + ":" + m;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};
+    return i;
+}
+</script>
+<!--everything that goes in the 'scherm' div is shown on the screen-->
+    <div id="scherm">
+            <a href="index.html"><div id="time"></div></a>
+<!--and the iframe to the current page, in our case to the homescreen/dashboard-->
+        <iframe src="appstore/dash.php"></iframe>
+        
+
+    </div>
+    <p></p>
+    
+
+    </body>
+
+</html>
