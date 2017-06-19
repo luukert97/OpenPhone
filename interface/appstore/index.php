@@ -14,7 +14,7 @@
 <?php
 $servername = "studmysql01.fhict.local";
 $username = "dbi335676";
-$password = "N-spoor15";
+$password = "PASSWORD";
 $dbname = "dbi335676";
 
         

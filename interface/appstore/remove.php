@@ -11,7 +11,7 @@
     <body style="background-color:white;">
  <h1>Remove apps</h1>
 <?php
-$dbc = mysqli_connect('studmysql01.fhict.local', 'dbi335676', 'N-spoor15', 'dbi335676') or die('Error connecting to MySQL server.'); 
+$dbc = mysqli_connect('studmysql01.fhict.local', 'dbi335676', 'PASSWORD', 'dbi335676') or die('Error connecting to MySQL server.'); 
 if(isset($_POST['submit_button']))
 {
     mysqli_query($dbc, 'TRUNCATE TABLE `appicon`');
