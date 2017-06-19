@@ -1,0 +1,142 @@
+/**
+ * http://applemusic.tumblr.com/
+ */
+
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */ 
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+* {
+    font-family: "San Francisco"   
+}
+
+h1 { font-weight: 700; }
+h2 { font-weight: 600; }
+h3 { font-weight: 500; }
+p { font-weight: 400; }
+p.thin { font-weight: 200; }
+p.ultralight { font-weight: 100; }
+
+* {
+margin:0;
+padding:0;
+outline:0;
+}
+body {
+text-align:center;
+overflow: hidden;
+}
+#scroll {
+width: 320px;
+    height: 220px;
+background:white;
+overflow:auto;
+box-shadow:0 0 10px #000;
+}
+#scroll ul {
+float:left;
+margin-right:-999em;
+white-space:nowrap;
+list-style:none;
+}
+#scroll li {
+margin:15px;
+text-align:center;
+float:left;
+display:inline;           
+}
+#scroll img {
+border:0;
+display:block;
+border:none;
+width: 100px;
+height: 100px;
+}
+
+#scroll a:active img, #scroll a:focus img, #scroll a:hover img {
+border:white;
+}
+#scroll a {
+text-decoration:none;
+font-weight:bold;
+color:#000;
+}
+#scroll a:active, #scroll a:focus, #scroll a:hover {
+color:#FFF;
+}
+#scroll span {
+padding:5px 0 0;
+display:block;
+font-family: sans-serif;
+color: black;
+}
+/* ------------- Flexcroll CSS ------------ */
+.scrollgeneric {
+line-height:1px;
+font-size:1px;
+position:absolute;
+top:0;left:0;
+}
+.hscrollerbase {
+height:17px;
+background:#aaa;
+}
+.hscrollerbar {
+height:12px;
+background:#000;
+cursor:e-resize;
+padding:3px;
+border:1px solid white;
+}
+.hscrollerbar:hover {
+background:#222;
+border:1px solid #222;
+}
+
+#div1 {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    padding-right: auto;
+}
